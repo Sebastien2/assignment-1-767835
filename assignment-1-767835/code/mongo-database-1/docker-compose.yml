@@ -1,0 +1,57 @@
+version: '3'
+services:
+  logs:
+    build: ./logs
+    volumes:
+      - ./logs:/usr/src/app
+    ports:
+      - '3020:80'
+
+  database:
+    image: mongo:3.0.2
+    ports:
+      - '27017:27017'
+
+  database-api-1:
+    build: ./database-api
+    volumes:
+      - ./database-api:/usr/src/app
+    ports:
+      - '3000:80'
+    links:
+      - database
+
+  database-api-2:
+    build: ./database-api-2
+    volumes:
+      - ./database-api-2:/usr/src/app
+    ports:
+      - '3001:80'
+    links:
+      - database
+
+  database-api-3:
+    build: ./database-api-3
+    volumes:
+      - ./database-api-3:/usr/src/app
+    ports:
+      - '3002:80'
+    links:
+      - database
+
+  database-distributor:
+    build: ./database-distributor
+    volumes:
+      - ./database-distributor:/usr/src/app
+    ports:
+      - '3003:80'
+
+
+  ingest:
+    build: ./ingest
+    volumes:
+      - ./ingest:/usr/src/app
+    ports:
+      - '3010:80'
+    links:
+      - database

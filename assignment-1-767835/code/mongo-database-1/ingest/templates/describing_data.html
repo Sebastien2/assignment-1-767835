@@ -1,0 +1,23 @@
+<html>
+<head>
+  <title>Présentation de data</title>
+</head>
+
+<body>
+  <p>
+    Liste des index:<br>
+    {% for index in columns %}
+      {{ index }} ,
+    {% endfor %}
+  </p>
+
+  <p>
+    Préentation du premier élément: <br>
+    {% for attr in data %}
+      {{ attr }} ,
+    {% endfor %}
+
+  </p>
+</body>
+
+</html>
