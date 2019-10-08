@@ -1,0 +1,4 @@
+
+"{\"date_fin\": \"2019-10-08 06:31:32.915725\", \"date_debut\": \"2019-10-08 06:31:28.299353\", \"destination\": \"http://database-api-3/insert_many\", \"container\": \"ingest\", \"succes\": \"1\", \"url\": \"http://ingest/ingest/22\"}"
+"{\"date_fin\": \"2019-10-08 06:31:33.004200\", \"date_debut\": \"2019-10-08 06:31:28.298379\", \"destination\": \"http://database-api-2/insert_many\", \"container\": \"ingest\", \"succes\": \"1\", \"url\": \"http://ingest/ingest/44\"}"
+"{\"date_fin\": \"2019-10-08 06:31:33.089710\", \"date_debut\": \"2019-10-08 06:31:28.288764\", \"destination\": \"http://database-api-1/insert_many\", \"container\": \"ingest\", \"succes\": \"1\", \"url\": \"http://ingest/ingest/1\"}"

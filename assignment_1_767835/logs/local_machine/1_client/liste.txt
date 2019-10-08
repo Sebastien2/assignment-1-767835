@@ -1,0 +1,2 @@
+
+"{\"date_fin\": \"2019-10-08 06:27:51.586311\", \"date_debut\": \"2019-10-08 06:27:49.106775\", \"destination\": \"http://database-api-3/insert_many\", \"container\": \"ingest\", \"succes\": \"1\", \"url\": \"http://ingest/ingest/22\"}"

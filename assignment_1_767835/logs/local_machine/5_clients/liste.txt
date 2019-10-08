@@ -1,0 +1,6 @@
+
+"{\"date_fin\": \"2019-10-08 06:32:30.628387\", \"date_debut\": \"2019-10-08 06:32:24.867930\", \"destination\": \"http://database-api-2/insert_many\", \"container\": \"ingest\", \"succes\": \"1\", \"url\": \"http://ingest/ingest/44\"}"
+"{\"date_fin\": \"2019-10-08 06:32:30.788625\", \"date_debut\": \"2019-10-08 06:32:24.876398\", \"destination\": \"http://database-api-3/insert_many\", \"container\": \"ingest\", \"succes\": \"1\", \"url\": \"http://ingest/ingest/3\"}"
+"{\"date_fin\": \"2019-10-08 06:32:30.947750\", \"date_debut\": \"2019-10-08 06:32:24.875369\", \"destination\": \"http://database-api-1/insert_many\", \"container\": \"ingest\", \"succes\": \"1\", \"url\": \"http://ingest/ingest/2\"}"
+"{\"date_fin\": \"2019-10-08 06:32:32.836795\", \"date_debut\": \"2019-10-08 06:32:24.870669\", \"destination\": \"http://database-api-3/insert_many\", \"container\": \"ingest\", \"succes\": \"1\", \"url\": \"http://ingest/ingest/22\"}"
+"{\"date_fin\": \"2019-10-08 06:32:32.997070\", \"date_debut\": \"2019-10-08 06:32:24.874009\", \"destination\": \"http://database-api-1/insert_many\", \"container\": \"ingest\", \"succes\": \"1\", \"url\": \"http://ingest/ingest/1\"}"

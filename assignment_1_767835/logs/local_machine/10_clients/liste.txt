@@ -1,0 +1,11 @@
+
+"{\"date_fin\": \"2019-10-08 06:33:03.862029\", \"date_debut\": \"2019-10-08 06:32:55.497579\", \"destination\": \"http://database-api-3/insert_many\", \"container\": \"ingest\", \"succes\": \"1\", \"url\": \"http://ingest/ingest/22\"}"
+"{\"date_fin\": \"2019-10-08 06:33:04.634933\", \"date_debut\": \"2019-10-08 06:32:55.493577\", \"destination\": \"http://database-api-2/insert_many\", \"container\": \"ingest\", \"succes\": \"1\", \"url\": \"http://ingest/ingest/44\"}"
+"{\"date_fin\": \"2019-10-08 06:33:04.889794\", \"date_debut\": \"2019-10-08 06:32:55.514000\", \"destination\": \"http://database-api-1/insert_many\", \"container\": \"ingest\", \"succes\": \"1\", \"url\": \"http://ingest/ingest/3\"}"
+"{\"date_fin\": \"2019-10-08 06:33:06.335457\", \"date_debut\": \"2019-10-08 06:32:55.524222\", \"destination\": \"http://database-api-3/insert_many\", \"container\": \"ingest\", \"succes\": \"1\", \"url\": \"http://ingest/ingest/2\"}"
+"{\"date_fin\": \"2019-10-08 06:33:07.329089\", \"date_debut\": \"2019-10-08 06:32:55.501491\", \"destination\": \"http://database-api-2/insert_many\", \"container\": \"ingest\", \"succes\": \"1\", \"url\": \"http://ingest/ingest/22\"}"
+"{\"date_fin\": \"2019-10-08 06:33:07.442494\", \"date_debut\": \"2019-10-08 06:32:55.515033\", \"destination\": \"http://database-api-1/insert_many\", \"container\": \"ingest\", \"succes\": \"1\", \"url\": \"http://ingest/ingest/2\"}"
+"{\"date_fin\": \"2019-10-08 06:33:09.132112\", \"date_debut\": \"2019-10-08 06:32:55.533409\", \"destination\": \"http://database-api-3/insert_many\", \"container\": \"ingest\", \"succes\": \"1\", \"url\": \"http://ingest/ingest/3\"}"
+"{\"date_fin\": \"2019-10-08 06:33:09.733106\", \"date_debut\": \"2019-10-08 06:32:55.495087\", \"destination\": \"http://database-api-2/insert_many\", \"container\": \"ingest\", \"succes\": \"1\", \"url\": \"http://ingest/ingest/1\"}"
+"{\"date_fin\": \"2019-10-08 06:33:09.829628\", \"date_debut\": \"2019-10-08 06:32:55.527818\", \"destination\": \"http://database-api-1/insert_many\", \"container\": \"ingest\", \"succes\": \"1\", \"url\": \"http://ingest/ingest/44\"}"
+"{\"date_fin\": \"2019-10-08 06:33:11.617553\", \"date_debut\": \"2019-10-08 06:32:55.503314\", \"destination\": \"http://database-api-2/insert_many\", \"container\": \"ingest\", \"succes\": \"1\", \"url\": \"http://ingest/ingest/1\"}"

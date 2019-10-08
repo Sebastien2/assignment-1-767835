@@ -46,3 +46,26 @@ Inserting image
 The data is partitioned geographically: it takes into account that most reading requests will be based on geographical criterias.
 
 # Question 3
+
+We perform this with 3 shards, and 1 to 50 clients requesting to ingest data. Each request asks to ingest 10000 entries in the atabase.
+
+# Question 4
+
+The result shows:
+1. on a local machine, each request takes 2 to 3 seconds to be validated
+2. the 3 shards work in parallel thanks to the service distributing the requests between the shards. So that there are 3 requests being answered at the same time: the performance is therefore tripled
+3. on a local machine, all requests are satisfied. This has been tested for 1 to 50 simultaneus requests.
+
+# Question 5
+
+Because all requests ingest the same amount of data, the distribution of the tasks to each hard is easy. Clients with requests of different sizes would require a better distribution of the tasks between the shards.
+
+We would be likely to face failures if we were on a real network. The test is on a local machine, so there is no loss or damaging of packets.
+
+On a real network, we would have to find the optimal amount of data to send over one request (balance between head overload and failure risk) and choose it as amount of data to send in one request. In addition, we should save each data in 2 diifferent tables for consistency validation.
+
+The main time-consuming task is to insert data into the database (and not to read the csv files). To speed up this process, we should have in each shard several threads inserting the data concurrently, and a main thread reading the data from the packets and transfrring it to the threads.
+
+## Part 3
+
+# Question 1
