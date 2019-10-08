@@ -69,3 +69,18 @@ The main time-consuming task is to insert data into the database (and not to rea
 ## Part 3
 
 # Question 1
+
+We use a service leader in Zookeeper that maintains a datawase with the correspondance between users and *coredms* instances. This service will answer requests from clients by providing the instance with which it must communicate.
+
+# Question 2
+
+
+#Question 3
+
+*mysimbdp_ingest* would first request a specific service for the lsit of the available services, with their roles and urls. *discovery_service* would use Kubernetes to obtain the list of running services. *mysimbdp_ingest* would then choose the service corresponding to its need, with as little workload as possible.
+
+# Question 4
+
+I would provide an interface to be implemented by the client. This interface would contain a single function: a function taking as entry argument a csv file, and returning a binary result (success or failure).This can be implemented in Python using Flask.
+
+*mysimbdp_daas* would then communicate this function to a service that would insert it into an instance of *mysimbdp_ingest*, and create this instance in a new container. We would obtain pairs of services, one in *mysimbdp_daas* and one in *mysimbdp_ingest*, working together to ingest data.
