@@ -1,2 +1,47 @@
-the content of this file should be the output of the log of your own git project for this assignment
-using git log command to export your git log
+commit 8a0d781ea8f2c5e924e24b1728fdb8047d461fcb
+Author: sebastien.boire <boire.sebastien@gmail.com>
+Date:   Tue Oct 8 20:35:30 2019 +0200
+
+    script client
+
+commit 88699ca2556d5b947a440d24841927ff09e90e9a
+Author: sebastien.boire <boire.sebastien@gmail.com>
+Date:   Tue Oct 8 20:33:11 2019 +0200
+
+    script client
+
+commit 188b98382ee8b3b04fe6418a37e81dbef9abe370
+Author: sebastien.boire <boire.sebastien@gmail.com>
+Date:   Tue Oct 8 20:20:30 2019 +0200
+
+    changement nom fichier
+
+commit 66053ff7790cbd0d4d107dad5482a322ac2398a6
+Author: sebastien.boire <boire.sebastien@gmail.com>
+Date:   Tue Oct 8 10:05:22 2019 +0200
+
+    adding logs on local machine
+
+commit cc1738f9a2b6ddc5daea6bd4009ae7c6a30088da
+Author: sebastien.boire <boire.sebastien@gmail.com>
+Date:   Tue Oct 8 08:17:42 2019 +0200
+
+    little change in name
+
+commit cd8d1040af46c863ea08b75bf18e2fdf3ccd1159
+Author: sebastien.boire <boire.sebastien@gmail.com>
+Date:   Mon Oct 7 22:41:22 2019 +0200
+
+    adding code
+
+commit c935e63b7c342fd713908690cecf4557430fae2a
+Author: sebastien.boire <boire.sebastien@gmail.com>
+Date:   Mon Oct 7 21:57:30 2019 +0200
+
+    adding code
+
+commit 204430de554aa236a9c5fc3714e4e97cbcaee2ea
+Author: sebastien.boire <boire.sebastien@gmail.com>
+Date:   Sat Oct 5 11:39:14 2019 +0200
+
+    origin commit
